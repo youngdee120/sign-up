@@ -145,6 +145,46 @@ p:last-child {
 .checkbox input[type="checkbox"]:hover {
   border-color: #888;
 }
+.checkbox a {
+  color: #007bff; 
+  text-decoration: none; 
+  font-weight: bold; 
+  transition: color 0.3s, text-decoration 0.3s; 
+}
+
+.checkbox a:hover {
+  color: #0b0b0b;  
+}
+
+.btn {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0; 
+}
+
+.btn button {
+  padding: 10px 20px; 
+  font-size: 16px; 
+  font-weight: bold; 
+  color: #000000; 
+  background-color: #ffffff; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s; 
+}
+
+.btn button:hover {
+  background-color: #0056b3; 
+  transform: translateY(-2px); 
+}
+
+.btn button:active {
+  background-color: #004494; 
+  transform: translateY(0); 
+}
+
 
 /* Media query for small screens */
 @media (max-width: 600px) {
